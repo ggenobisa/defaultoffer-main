@@ -1,4 +1,5 @@
-.hide-desktop {display: none;}
+.hide-desktop {display: block;}
+.hide-mobile {display: none;}
 img {max-width:100%}
 /*--------------RESPONSIVE CSS ----------------*/
 @media screen and (max-width:1366px) {
@@ -73,4 +74,10 @@ img {max-width:100%}
     .splide__arrow {display:none;}
     .splide__slide img {width:52vw}
     .splide { margin-right: -1rem;}
+
+    .hero .offer-text {bottom: 21%;}
 }/****640px****/
+
+@media screen and (max-width:375px) {
+    .hero .offer-text {bottom: 27%;}
+}
