@@ -1,5 +1,4 @@
-.hide-desktop {display: block;}
-.hide-mobile {display: none;}
+
 img {max-width:100%}
 /*--------------RESPONSIVE CSS ----------------*/
 @media screen and (max-width:1366px) {
@@ -21,6 +20,8 @@ img {max-width:100%}
 }/****1024px****/
 
 @media screen and (max-width:940px) {
+    .hide-mobile {display: none;}
+    .hide-desktop {display: block;}
     .hero {background: url('../img/mobile/banner-m.jpg') center center/cover no-repeat;}
     .hero .logo {top: 4%;left: 0;right: 0;}
     .hero .logo img {width: 280px;}
