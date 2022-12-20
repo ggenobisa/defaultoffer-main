@@ -75,7 +75,7 @@ img {max-width:100%}
     .splide__slide img {width:52vw}
     .splide { margin-right: -1rem;}
 
-    .hero .offer-text {bottom: 30%;}
+    /* .hero .offer-text {bottom: 30%;} */
 }/****640px****/
 
 @media screen and (max-width:375px) {
