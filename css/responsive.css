@@ -82,5 +82,5 @@ img {max-width:100%}
 }/****640px****/
 
 @media screen and (max-width:375px) {
-    /* .hero .offer-text {bottom: 30%;} */
+    .hero .offer-text {bottom: 30%;}
 }
