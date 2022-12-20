@@ -51,35 +51,3 @@ button:hover,
 i:hover {
     cursor: pointer;
 }
-
-.slick-prev:before {
-    content: "\f053" !important;
-    font-family: "Font Awesome 5 Free" !important;
-    font-weight: 900 !important;
-    color: var(--secondary) !important;
-    font-size: 25px !important;
-    opacity: unset !important;
-}
-
-.slick-next:before {
-    content: "\f054" !important;
-    font-family: "Font Awesome 5 Free" !important;
-    font-weight: 900 !important;
-    color: var(--secondary) !important;
-    font-size: 25px !important;
-    opacity: unset !important;
-}
-
-.slick-slide {
-    margin: 0 5px;
-}
-/* the parent */
-.slick-list {
-    margin: 0 -5px;
-}
-.slick-slide:last-child {margin-right: 0;}
-
-.slick-disabled {
-    opacity: 0;
-    pointer-events:none;
-}
