@@ -73,10 +73,8 @@ img {max-width:100%}
 @media screen and (max-width:768px) {
     .hero {background: url(../img/mobile/banner-m.jpg) center 20%/cover no-repeat;}
     .hero .logo {top: 5%;}
-    .hero .logo img {width: 350px;}
     .hero .offer-text h2 {font-size: 30px;}
     .hero .offer-text h1 {font-size: 40px;}
-    .hero .offer-text {bottom: 20%;}
     .howtoplay .content h2 {font-size: 40px;}
     .genting-casino .genting-container p {font-size: 22px;}
     .genting-casino .content h2 {font-size: 35px;}
@@ -88,12 +86,6 @@ img {max-width:100%}
     .splide__arrow {display:none;}
     .splide__slide img {width:52vw}
     .splide { margin-right: -1rem;}
-
-    .hero .logo {top: 4%;left: 0;right: 0;}
-    .hero .logo img {width: 270px;}
-    .hero .offer-text {left: 0;right: 0; top: unset; bottom: 25%;}
-    .hero .offer-text h2 {font-size: 24px;}
-    .hero .offer-text h1 {font-size: 36px;}
 
     /* .hero .offer-text {bottom: 30%;} */
 }/****640px****/
